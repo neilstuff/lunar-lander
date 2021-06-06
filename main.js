@@ -14,9 +14,9 @@ function createWindow() {
 
     var extend = config.mode == "debug" ? 500 : 0;
     mainWindow = new BrowserWindow({
-        width: 1280 + extend,
-        height: 844,
-        resizable: true,
+        width: 1180 + extend,
+        height: 744,
+        resizable: false,
         autoHideMenuBar: true
     });
 
