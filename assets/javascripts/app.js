@@ -164,8 +164,11 @@ two.bind('update', (frame, dt) => {
     state = state();
     camera.tick(dt);
     ship.tick(dt);
-    infoA.innerHTML = `<table style='position:absolute; right:10px;'>` +
-        `<tr><td>horizontal speed:&nbsp;</td><td>${ship.v.x.toFixed(3)}` +
-        `</td></tr><tr><td>vertical speed:&nbsp;</td><td>${ship.v.y.toFixed(3)}</td></tr></table>`;
+    infoA.innerHTML = `<div style="position:absolute; top 40px; right:0px;">` +
+        `<table>` +
+            `<tr><td style="width:100px">horizontal speed:&nbsp;</td><td style="width:60px">${ship.v.x.toFixed(3)}</td></tr>` +
+            `<tr><td style="width:100px">vertical speed:&nbsp;</td><td style="width:60px">${ship.v.y.toFixed(3)}</td></tr>` +
+        `</table>` +
+        `</div>`;
 
 });

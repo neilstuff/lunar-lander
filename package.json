@@ -33,14 +33,15 @@
     "author": "GitHub",
     "license": "CC0-1.0",
     "dependencies": {
-        "two.js": "^0.7.0-stable.1",
+        "two.js": "^0.7.8",
         "seedrandom": "^3.0.5",
-        "underscore": "^1.10.2",
-        "beardcss": "^2.2.4"
+        "underscore": "^1.13.1",
+        "beardcss": "^2.2.4",
+        "node": "^16.9.1"
     },
     "devDependencies": {
-        "electron": "^9.1.2",
-        "electron-builder": "^22.8.0"
+        "electron": "^14.0.1",
+        "electron-builder": "^22.11.7"
     },
     "bugs": {
         "url": "https://github.com/thesourorange/lunar-lander/issues"
