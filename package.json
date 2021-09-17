@@ -36,12 +36,12 @@
         "two.js": "^0.7.8",
         "seedrandom": "^3.0.5",
         "underscore": "^1.13.1",
-        "beardcss": "^2.2.4",
-        "node": "^16.9.1"
+        "beardcss": "^2.2.4"
     },
     "devDependencies": {
         "electron": "^14.0.1",
-        "electron-builder": "^22.11.7"
+        "electron-builder": "^22.11.7",
+        "node": "^16.9.1"
     },
     "bugs": {
         "url": "https://github.com/thesourorange/lunar-lander/issues"
